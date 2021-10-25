@@ -2,19 +2,16 @@ import json
 import Box
 import logging
 import urllib
-
+import os
+from boxsdk import OAuth2, Client
+from os.path import join, dirname
+from dotenv import load_dotenv
 
 logging.getLogger('boxsdk').setLevel(logging.CRITICAL)
-box_setting = {
-    "client_id": kms_decrypted("BOX_CLIENT_ID"),
-    "client_secret": kms_decrypted("BOX_CLIENT_SECRET"),
-    "enterprise_id": kms_decrypted("BOX_ENTERPRISE_ID"),
-    "jwt_key_id": kms_decrypted("BOX_JWT_KEY_ID"),
-    "rsa_private_key_data": kms_decrypted("BOX_PRIVATE_KEY")
-}
-box_folder_id = kms_decrypted("BOX_FOLDER_ID")
-box_user = kms_decrypted("BOX_USER")
-box_file = Box.File(**box_setting)
+
+box_folder_id = "BOX_FOLDER_ID"
+box_user = "BOX_USER"
+box_file = Box.File()
 box_file.login(box_user)
 
 
@@ -45,3 +42,8 @@ def downloader(url, headers):
         return res, contentLength
     except Exception as e:
         raise e
+
+
+def uploadToBox():
+    box_folder_id = "hoge"
+    upload_file = Client.folder(box_folder_id)
