@@ -5,6 +5,9 @@ https: //docs.python.org/ja/3/howto/urllib2.html
 # zoom APIでcompletedを受け取る
 →受け取った時に、オブジェクトの"recording_files"をtransferする
 
+# boxSDKについて
+https://github.com/box/box-python-sdk
+
 参考サイト
 https: //github.com/cloudnative-co/lambda-ZoomRecordingsTransfer/blob/master/receiver/app.py
 
