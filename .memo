@@ -1,6 +1,8 @@
 # urlribとは?
 https: //docs.python.org/ja/3/howto/urllib2.html
 
+# https://qiita.com/aharenchi/items/02887cf5ccb35834fdaa
+
 
 # zoom APIでcompletedを受け取る
 →受け取った時に、オブジェクトの"recording_files"をtransferする
