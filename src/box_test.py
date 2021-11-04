@@ -7,8 +7,6 @@ from boxsdk import OAuth2, Client
 from os.path import join, dirname
 from dotenv import load_dotenv
 
-logging.getLogger('boxsdk').setLevel(logging.CRITICAL)
-
 box_setting = {
     "client_id": "BOX_CLIENT_ID",
     "client_secret": "BOX_CLIENT_SECRET",

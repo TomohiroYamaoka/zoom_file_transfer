@@ -7,3 +7,11 @@ Test transferring recording files from zoomcloud to box when zoom finishes recor
 1. zoom から POST された JSON ファイルを受け取る
 2. 受け取った JSON ファイルから、zoom レコーディングファイル(URL)を取り出す
 3. zoom レコーディングファイルを box に転送する。
+
+## zoom アカウント
+
+https://marketplace.zoom.us/develop/create?source=devdocs
+
+## BOX アカウント
+
+https://www.box.com/ja-jp/pricing/individual
