@@ -3,10 +3,6 @@ from boxsdk import OAuth2, Client
 from os.path import join, dirname
 from dotenv import load_dotenv
 
-from pathlib import Path  # python3 only
-env_path = Path('.') / '.env'
-load_dotenv(dotenv_path=env_path)
-
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
