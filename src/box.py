@@ -17,5 +17,7 @@ auth = OAuth2(
 )
 client = Client(auth)
 
+file_path = '/testfile/photo.jpg'
+file_name = 'photo.jpg'
 folder_id = os.getenv("FOLDER_ID")
-uploaded_file = client.folder(folder_id).upload('test.py')
+uploaded_file = client.folder(folder_id).upload('file_path, file_name')

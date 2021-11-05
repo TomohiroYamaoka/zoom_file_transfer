@@ -15,3 +15,7 @@ https://marketplace.zoom.us/develop/create?source=devdocs
 ## BOX アカウント
 
 https://www.box.com/ja-jp/pricing/individual
+
+## 参考
+
+https://www.wantedly.com/companies/serverworks/post_articles/162674
