@@ -18,4 +18,14 @@ https://www.box.com/ja-jp/pricing/individual
 
 ## 参考
 
-https://www.wantedly.com/companies/serverworks/post_articles/162674
+1.  https://www.wantedly.com/companies/serverworks/post_articles/162674
+
+2.  https://qiita.com/Hiroyama-Yutaka/items/3aba71fe6e465e6a3388
+
+## dotenv について
+
+https://qiita.com/harukikaneko/items/b004048f8d1eca44cba9
+
+## boxAPI の認証について
+
+https://medium.com/box-developer-blog/box-api-understanding-security-ja-b95725d8aaf0
