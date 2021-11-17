@@ -26,6 +26,9 @@ https://www.box.com/ja-jp/pricing/individual
 
 https://qiita.com/harukikaneko/items/b004048f8d1eca44cba9
 
+## JWT認証期限
+https://ja.developer.box.com/guides/api-calls/permissions-and-errors/expiration/
+
 ## boxAPI の認証について
 
 https://medium.com/box-developer-blog/box-api-understanding-security-ja-b95725d8aaf0
