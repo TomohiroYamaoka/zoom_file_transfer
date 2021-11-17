@@ -29,3 +29,8 @@ https://qiita.com/harukikaneko/items/b004048f8d1eca44cba9
 ## boxAPI の認証について
 
 https://medium.com/box-developer-blog/box-api-understanding-security-ja-b95725d8aaf0
+
+## 課題
+
+・zoomCloud の機能はビジネス版しかないため、zoomAPI の受け取り確認ができない
+・boxJWT 認証の期限
