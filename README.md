@@ -32,5 +32,5 @@ https://medium.com/box-developer-blog/box-api-understanding-security-ja-b95725d8
 
 ## 課題
 
-・zoomCloud の機能はビジネス版しかないため、zoomAPI の受け取り確認ができない
-・boxJWT 認証の期限
+・zoomCloud の機能はビジネス版しかないため、zoomAPI の受け取り確認ができない  
+・boxJWT 認証の期限  
